@@ -2,31 +2,88 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>Dead Malls London</title>
 <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-	<section id="topBar"></section><!--end topBar-->
+    <h1 class="hidden"> Dead Malls London </h1>
+
+
 	<div id="siteContainer">
     	<header id="mainHeader">
-        	<div id="logo"><p>Logo</p></div><!--end logo-->
-            <nav id="mainNav"><p>Nav</p></nav><!--end mainNav-->
-        </header><!--end mainHeader-->
+
+        	<div id="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+
+            <nav id="mainNav">
+                <h2 class="hidden"> Main Navigation </h2>
+            <ul id="header">
+
+                <li><a href="westmount.html">WestMount</a></li>
+                <li><a href="citiplaza.html">Citi Plaza</a></li>
+                <li><a href="cherryhill.html">Cherryhill</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+
+            </ul>
+            </nav>
+        </header>
+
         <section id="promo">
-        	<div id="promoText"><p>Promo Text</p></div><!--end promoText-->
-        	<div id="promoImage"><p>Promo Image</p></div><!--end promoImage-->
-        </section><!--end promo-->
-        <section id="productInfo">
-        	<section class="productDesc"><p>Product Image &amp; Text</p></section><!--end productDesc1-->
-            <section class="productDesc"><p>Product Image &amp; Text</p></section><!--end productDesc2-->
-            <section class="productDesc"><p>Product Image &amp; Text</p></section><!--end productDesc3-->
-            <section class="productDesc"><p>Product Image &amp; Text</p></section><!--end productDesc4-->
-        </section><!--end productInfo-->
+        	<h2>Welcome To Dead Malls London</h2>
+            <br>
+            <p class="copy">This website is dedicated to the phenomenon known as “Dead Malls”. Dead malls are defined by high vacancy rate and low foot traffic. We will explore several malls located in London, Ontario that are often referred to as dead in an attempt to decide whether these claims are true.</p>
+            <br>
+            <p class="copy">Feel free to contact us with any relevant information or questions regarding these, or any other malls located in London!</p>
+        	<img src="images/promo_index.png" alt="Promo Image">
+        </section>
+
+        <section id="mallSummary">
+            <h2 class="hidden">Mall Summary</h2>
+        	<section class="mallTitle">
+                    <h2>WestMount</h2>
+                <a href="westmount.html">
+                    <img src="images/westmount_index.png" alt="Westmount linked image">
+                </a>
+            </section>
+
+            <section class="mallTitle">
+                    <h2>Citi Plaza</h2>
+                <a href="citiplaza.html">
+                    <img src="images/citiPlaza_index.png" alt="Citi Plaza linked image">
+                 </a>
+            </section>
+            
+            <section class="mallTitle">
+                    <h2>Cherryhill</h2>
+                <a href="cherryhill.html">
+                    <img src="images/cherryhill_index.png" alt="Cherryhill linked image">
+                </a>
+            </section>
+
+        </section>
+
         <footer id="mainFooter">
-        	<div id="footerNav"><p>Footer Nav</p></div><!--end FooterNav-->
-            <div id="copyRight"><p>Copyright Info</p></div><!--end Copyright-->
-        </footer><!--end mainFooter-->
-    </div><!--end siteContainer-->
+        	<nav id="footereNav">
+                <h2 class="hidden"> Footer Navigation </h2>
+            <ul id="footer">
+
+                <li><a href="westmount.html">WestMount</a></li>
+                <li><a href="citiplaza.html">Citi Plaza</a></li>
+                <li><a href="cherryhill.html">Cherryhill</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+
+            </ul>
+            </nav>
+
+            <section>
+                <h2 class="hidden">Copyright</h2>
+                <small id="copyright">&copy; Copyright 2019, Dead Malls London</small>
+            </section>
+
+        </footer>
+    </div>
 <script src="js/main.js"></script>    
 </body>
 </html>
